@@ -1,0 +1,28 @@
+{
+  "name": "typescript-cli-base",
+  "version": "1.0.0",
+  "description": "Base for running typescript from the command line, via ts-node.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc",
+    "start": "node_modules/.bin/ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenBeattieHood/typescript-cli-base.git"
+  },
+  "keywords": [
+    "typescript",
+    "cli",
+    "ts-node"
+  ],
+  "author": "BenBeattieHood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenBeattieHood/typescript-cli-base/issues"
+  },
+  "homepage": "https://github.com/BenBeattieHood/typescript-cli-base#readme"
+}
