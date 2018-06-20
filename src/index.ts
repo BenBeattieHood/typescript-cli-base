@@ -1,1 +1,4 @@
-console.log('hi')
+const main = async () => {
+    console.log('hi');
+}
+main();
